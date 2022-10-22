@@ -5,7 +5,9 @@
   padding: 245px 312px;
   text-decoration: none;
   background-image: url("../../../images/cover-trains.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   color: inherit;
   cursor: pointer;
   z-index: 1;
