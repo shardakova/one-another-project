@@ -11,21 +11,40 @@
   grid-row: 2;
 }
 
+@media screen and (max-width: 1200px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     padding-bottom: 27px;
+    font-size: 18px;
+    line-height: 163%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 150%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
     padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 163%;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 606px) {
   .place__paragraph {
     padding: 0 16px 25px;
     font-size: 16px;
+    line-height: 163%;
   }
 }

@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 245px 312px;
   text-decoration: none;
   background-image: url("../../../images/cover-trains.jpg");
   background-size: cover;
@@ -28,22 +27,4 @@
 
 .cover__link:hover::after {
   opacity: .8;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__link {
-    padding: 195px 232px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__link {
-    padding: 115px 104px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .cover__link {
-    padding: 33px 16px;
-  }
 }
