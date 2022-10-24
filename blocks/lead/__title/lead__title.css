@@ -10,9 +10,16 @@
   color: inherit;
 }
 
+@media screen and (max-width: 675px){
+  .lead__title {
+    max-width: calc(100% - 16px*2);
+    font-size: 58px;
+    line-height: 100%;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .lead__title {
-    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }

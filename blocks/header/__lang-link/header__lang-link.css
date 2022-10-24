@@ -1,3 +1,7 @@
+.header__lang-link:hover {
+  opacity: .8;
+}
+
 .header__lang-link {
   font-weight: 400;
   font-size: 24px;
@@ -5,4 +9,5 @@
   text-decoration-line: none;
   color: inherit;
   cursor: pointer;
+  transition: opacity .3s ease;
 }
